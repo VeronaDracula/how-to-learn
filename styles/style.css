@@ -99,7 +99,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
