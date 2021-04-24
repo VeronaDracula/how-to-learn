@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, a, ul, li {
+body, h1, h2, h3, h4, p, a, ul, li {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -11,6 +11,7 @@ body, h1, h2, h3, p, a, ul, li {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* header*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -18,6 +19,7 @@ body, h1, h2, h3, p, a, ul, li {
   background: #f2f2f2;
   position: relative;
   display: flex;
+  color: #000;
 }
 
 .logo_place_header {
@@ -47,6 +49,7 @@ body, h1, h2, h3, p, a, ul, li {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -72,9 +75,11 @@ body, h1, h2, h3, p, a, ul, li {
   background: #2f80ed;
 }
 
+/*description*/
 .description {
   display: flex;
   justify-content: center;
+  color: #000;
 }
 
 .two-columns {
@@ -114,10 +119,12 @@ body, h1, h2, h3, p, a, ul, li {
   font-weight: bold;
 }
 
+/*digits*/
 .digits {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #000;
 }
 
 .section-title {
@@ -174,13 +181,15 @@ body, h1, h2, h3, p, a, ul, li {
   margin-top: 20px;
 }
 
+/*feynman*/
 .feynman {
   background: #f2f2f2;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height:  790px;
+  height: 790px;
+  color: #000;
 }
 
 .feynman__title {
@@ -220,6 +229,7 @@ body, h1, h2, h3, p, a, ul, li {
   left: 0;
 }
 
+/*kaufman*/
 .kaufman {
   background:  #1f1f1f;
   color: white;
@@ -258,6 +268,8 @@ body, h1, h2, h3, p, a, ul, li {
   margin-right: 0;
   margin-top: 80px;
 }
+
+/*footer*/
 .footer {
   color: white;
   background: #1f1f1f;
