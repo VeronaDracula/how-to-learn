@@ -191,14 +191,18 @@
 
 .video__iframe {
   margin-right: 20px;
-  width: 515px;
-  height: 316px;
 }
 
 .video__iframe:nth-of-type(2n) {
   margin-right: 0;
 }
 
+/*oakley*/
+.oakley {
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+}
 
 /*digits*/
 .digits {
