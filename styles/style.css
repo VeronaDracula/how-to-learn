@@ -95,7 +95,7 @@
 }
 
 .two-columns {
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -122,7 +122,7 @@
   margin: 0 0 30px 0;
 }
 
-.two-columns__paragraph:nth-of-type(3n) {
+.two-columns__paragraph:last-child{
   margin-bottom: 0;
 }
 
@@ -210,6 +210,13 @@
   display: flex;
   justify-content: center;
   background: #f2f2f2;
+}
+
+.two-columns_theme_grey {
+  position: relative;
+  padding-top: 160px;
+  bottom: -20px;
+  z-index: 1;
 }
 
 /*digits*/
